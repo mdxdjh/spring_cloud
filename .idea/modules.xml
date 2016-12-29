@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server/test_eureka_server.iml" filepath="$PROJECT_DIR$/cloud-eureka-server/test_eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/test_spring_cloud.iml" filepath="$PROJECT_DIR$/.idea/test_spring_cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-server/test_spring_cloud_config_server.iml" filepath="$PROJECT_DIR$/cloud-config-server/test_spring_cloud_config_server.iml" />
+    </modules>
+  </component>
+</project>
