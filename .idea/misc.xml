@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/cloud-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-client-2/pom.xml" />
       </list>
     </option>
   </component>
