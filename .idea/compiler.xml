@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-config-client" />
         <module name="cloud-config-server" />
+        <module name="cloud-eureka-client" />
         <module name="cloud-eureka-server" />
+        <module name="cloud-zuul" />
         <module name="test_eureka_client" />
         <module name="test_eureka_server" />
         <module name="test_spring_cloud_config_client" />
@@ -18,7 +20,9 @@
     <bytecodeTargetLevel>
       <module name="cloud-config-client" target="1.8" />
       <module name="cloud-config-server" target="1.8" />
+      <module name="cloud-eureka-client" target="1.8" />
       <module name="cloud-eureka-server" target="1.8" />
+      <module name="cloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
