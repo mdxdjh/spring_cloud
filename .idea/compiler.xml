@@ -10,6 +10,7 @@
         <module name="cloud-config-server" />
         <module name="cloud-eureka-client" />
         <module name="cloud-eureka-client-2" />
+        <module name="cloud-eureka-client-3" />
         <module name="cloud-eureka-server" />
         <module name="cloud-zuul" />
         <module name="test_eureka_client" />
@@ -24,8 +25,10 @@
       <module name="cloud-config-server" target="1.8" />
       <module name="cloud-eureka-client" target="1.8" />
       <module name="cloud-eureka-client-2" target="1.8" />
+      <module name="cloud-eureka-client-3" target="1.8" />
       <module name="cloud-eureka-server" target="1.8" />
       <module name="cloud-zuul" target="1.8" />
+      <module name="test_eureka_client" target="1.6" />
       <module name="test_eureka_client_2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
