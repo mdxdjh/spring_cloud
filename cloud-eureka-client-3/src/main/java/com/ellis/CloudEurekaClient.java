@@ -1,11 +1,8 @@
 package com.ellis;
 
-import com.ellis.config.RibbonConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 /**
  * @author ellis.luo
@@ -14,14 +11,12 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableFeignClients
-@RibbonClient(name = "cloud-eureka-client-2", configuration = RibbonConfiguration.class)
-public class CloudEurekaClient2
+public class CloudEurekaClient
 {
 
     public static void main(String[] args)
     {
-        new SpringApplicationBuilder(CloudEurekaClient2.class).web(true).run(args);
+        new SpringApplicationBuilder(CloudEurekaClient.class).web(true).run(args);
     }
 
 }

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @date 16/12/24 下午8:52
  * @description
  */
-@FeignClient(name = "cloud-eureka-client")
+@FeignClient(name = "cloud-eureka-client", fallback = FailFeignServiceImpl.class)
 public interface FeignService
 {
     @RequestMapping(value = "/get/{str}")
