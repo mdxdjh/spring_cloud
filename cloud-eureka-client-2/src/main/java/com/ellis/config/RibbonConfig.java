@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
  * @description
  */
 @Configuration
-public class RibbonConfiguration
+public class RibbonConfig
 {
     @Bean
     public IRule ribbonRule()

@@ -1,6 +1,6 @@
 package com.ellis;
 
-import com.ellis.config.RibbonConfiguration;
+import com.ellis.config.RibbonConfig;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -15,7 +15,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableFeignClients
-@RibbonClient(name = "cloud-eureka-client-2", configuration = RibbonConfiguration.class)
+@RibbonClient(name = "cloud-eureka-client-2", configuration = RibbonConfig.class)
 public class CloudEurekaClient2
 {
 

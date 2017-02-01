@@ -1,4 +1,4 @@
-package com.ellis;
+package com.ellis.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
