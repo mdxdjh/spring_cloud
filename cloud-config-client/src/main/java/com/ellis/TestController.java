@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * 需要做到push代码后感知自动更新可以使用git的webhook，设置一个提交后的回调请求来执行refresh进行更新
  *
- * 通过 curl -X POST http://localhost:7002/bus/refresh 更新所有客户端的配置信息
+ * curl -X POST http://localhost:7001/bus/refresh -d 'destination=**'
  */
 @RefreshScope
 @RestController
